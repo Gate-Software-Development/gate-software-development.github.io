@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gate Software Development</title>
+<meta name="description" content="Gate Software Development builds practical, data-driven apps — TrueMile EV for electric-vehicle owners and AutoFlow for automation.">
+<style>
+:root{--bg:#f7f8fb;--card:#ffffff;--ink:#1a2332;--muted:#5b6b80;--navy:#0e2a47;--green:#00b368;--cyan:#0099bb;--border:#dbe2ec}
+@media(prefers-color-scheme:dark){:root{--bg:#0b111e;--card:#131c2e;--ink:#dbe4f0;--muted:#8fa1b8;--navy:#7db8f0;--green:#00e676;--cyan:#00e5ff;--border:#243349}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header{padding:64px 0 40px;text-align:center}
+.logo{display:inline-flex;align-items:center;gap:14px;justify-content:center}
+.mark{width:46px;height:46px;border-radius:50%;background:radial-gradient(circle at 32% 30%,#3ec6ff 0%,#1273b8 45%,#0b3a63 100%);position:relative;flex:none}
+.mark::after{content:"";position:absolute;left:19px;top:9px;width:9px;height:28px;background:linear-gradient(180deg,#aef7c8,#00e676);clip-path:polygon(58% 0,100% 0,52% 46%,78% 46%,0 100%,34% 52%,8% 52%)}
+h1{font-size:1.7em;margin:.4em 0 .2em}
+.tag{color:var(--muted);font-size:1.05em;margin:0}
+section{padding:26px 0}
+h2{font-size:1.15em;color:var(--navy);letter-spacing:.4px;text-transform:uppercase;font-size:.95em;margin:0 0 14px}
+.apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1.2em}
+.badge{align-self:flex-start;font-size:.75em;font-weight:600;letter-spacing:.5px;padding:3px 10px;border-radius:20px;border:1px solid var(--border);color:var(--muted)}
+.badge.live{color:var(--green);border-color:var(--green)}
+.card p{margin:0;color:var(--muted);font-size:.95em;flex:1}
+.card .links{margin-top:10px;display:flex;gap:16px;flex-wrap:wrap;font-size:.92em}
+a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}
+.contact{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px}
+footer{padding:36px 0 48px;color:var(--muted);font-size:.85em;text-align:center}
+footer .legal{margin-top:6px}
+footer .legal a{color:var(--muted);margin:0 8px}
+</style></head><body>
+
+<header class="wrap">
+  <div class="logo"><div class="mark" aria-hidden="true"></div><h1>Gate Software Development</h1></div>
+  <p class="tag">Practical, data-driven apps. Your data stays yours — no ads, no trackers, ever.</p>
+</header>
+
+<section class="wrap">
+  <h2>Apps</h2>
+  <div class="apps">
+    <div class="card">
+      <span class="badge live">CLOSED TESTING</span>
+      <h3>TrueMile EV</h3>
+      <p>The EV logbook that learns your vehicle. Connects to your car's OBD adapter and automatically
+      records every drive and charge — true cost per mile, real range, your actual charging curve,
+      battery health, and a trip planner built on your own driving data instead of lab numbers.</p>
+      <div class="links">
+        <a href="https://play.google.com/store/apps/details?id=com.gateengineering.truemileev">Google Play</a>
+        <a href="https://gate-software-development.github.io/truemile-privacy/">Privacy</a>
+        <a href="https://gate-software-development.github.io/truemile-terms/">Terms</a>
+        <a href="https://gate-software-development.github.io/truemile-privacy/delete/">Delete account</a>
+      </div>
+    </div>
+    <div class="card">
+      <span class="badge">COMING SOON</span>
+      <h3>AutoFlow</h3>
+      <p>Automation for repetitive desktop and mobile workflows — record once, run anywhere.
+      In final preparation for release on desktop and Google Play.</p>
+      <div class="links"></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Support</h2>
+  <div class="contact">
+    <p style="margin:0">Questions, feedback, or account requests for any of our apps:
+    <strong><a href="mailto:gatesoftwaredev@gmail.com">gatesoftwaredev@gmail.com</a></strong><br>
+    <span style="color:var(--muted);font-size:.92em">We read everything — most messages get a reply within a day or two.</span></p>
+  </div>
+</section>
+
+<footer class="wrap">
+  © 2026 Gate Engineering LLC
+  <div class="legal">
+    <a href="https://gate-software-development.github.io/truemile-privacy/">TrueMile EV Privacy</a>
+    <a href="https://gate-software-development.github.io/truemile-terms/">TrueMile EV Terms</a>
+  </div>
+</footer>
+
+</body></html>
