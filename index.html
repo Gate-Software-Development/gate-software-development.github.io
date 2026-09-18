@@ -37,6 +37,10 @@ h2{font-size:.9em;letter-spacing:3px;text-transform:uppercase;color:var(--cyan);
 display:flex;flex-direction:column;gap:10px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;overflow:hidden}
 .card::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--green))}
 .card:hover{transform:translateY(-5px);border-color:#2c4268;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.cardlink{text-decoration:none;color:inherit;cursor:pointer}
+.cardlink:hover{text-decoration:none}
+.go{color:var(--cyan);font-weight:600;margin-top:auto}
+.cardlink:hover .go{text-decoration:underline}
 .card h3{margin:0;font-size:1.35em;letter-spacing:.3px}
 .badge{align-self:flex-start;font-size:.7em;font-weight:700;letter-spacing:1.2px;padding:4px 12px;border-radius:20px}
 .badge.test{color:var(--green);border:1px solid rgba(0,230,118,.5);background:rgba(0,230,118,.08)}
@@ -78,19 +82,14 @@ footer .legal a{color:var(--muted);margin:0 9px}
 <section class="wrap">
   <h2>Apps</h2>
   <div class="apps">
-    <div class="card">
+    <a class="card cardlink" href="/truemileev/">
       <span class="badge test">CLOSED TESTING</span>
       <h3>TrueMile EV</h3>
       <p>The EV logbook that learns your vehicle. Connects to your car's OBD adapter and automatically
       records every drive and charge — true cost per mile, real range, your actual charging curve,
       battery health, and a trip planner built on your own driving data instead of lab numbers.</p>
-      <div class="links">
-        <a href="https://play.google.com/store/apps/details?id=com.gateengineering.truemileev">Google Play</a>
-        <a href="https://gateeng.com/truemile-privacy/">Privacy</a>
-        <a href="https://gateeng.com/truemile-terms/">Terms</a>
-        <a href="https://gateeng.com/truemile-privacy/delete/">Delete account</a>
-      </div>
-    </div>
+      <span class="go">Visit the TrueMile EV site →</span>
+    </a>
     <div class="card">
       <span class="badge soon">COMING SOON</span>
       <h3>AutoFlow</h3>
@@ -122,8 +121,7 @@ footer .legal a{color:var(--muted);margin:0 9px}
 <footer class="wrap">
   © 2026 Gate Engineering LLC
   <div class="legal">
-    <a href="https://gateeng.com/truemile-privacy/">TrueMile EV Privacy</a>
-    <a href="https://gateeng.com/truemile-terms/">TrueMile EV Terms</a>
+    <a href="/truemileev/">TrueMile EV</a>
   </div>
 </footer>
 
